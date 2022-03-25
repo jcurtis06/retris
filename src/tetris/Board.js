@@ -7,12 +7,23 @@ const Board = () => {
 
   useEffect(focusBoard, []);
 
+  useEffect(() => {
+    const doSomething = (e) => {
+      onKeyDown(e);
+    };
+
+    window.addEventListener("keydown", doSomething);
+    return () => {
+      window.removeEventListener("keydown", doSomething);
+    };
+  }, [onKeyDown]);
+
   function focusBoard() {
     eBoard.current.focus();
   }
 
   return (
-    <div ref={eBoard} className={"t-board"} tabIndex={0} onKeyDown={onKeyDown}>
+    <div ref={eBoard} className={"t-board"} tabIndex={0}>
       <div>
         <span className="t-score-label">Score:</span>
         <span className="t-score-label">{score.toLocaleString()}</span>
