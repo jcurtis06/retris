@@ -80,9 +80,6 @@ export function useBoard() {
       x -= tX;
       y -= tY;
 
-      // cos 90 = 0, sin 90 = 1
-      // x = x cos 90 - y sin 90 = -y
-      // y = x sin 90 + y cos 90 = x
       let rX = -y;
       let rY = x;
 
