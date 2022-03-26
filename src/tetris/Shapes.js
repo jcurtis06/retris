@@ -22,6 +22,7 @@ const SHAPES = [
     ],
     width: 1,
     height: 4,
+    rotate: true,
     value: 2,
   },
   {
@@ -34,6 +35,7 @@ const SHAPES = [
     ],
     width: 2,
     height: 3,
+    rotate: true,
     value: 3,
   },
   {
@@ -46,6 +48,7 @@ const SHAPES = [
     ],
     width: 3,
     height: 2,
+    rotate: true,
     value: 4,
   },
   {
@@ -58,6 +61,7 @@ const SHAPES = [
     ],
     width: 2,
     height: 3,
+    rotate: true,
     value: 5,
   },
   {
@@ -69,6 +73,7 @@ const SHAPES = [
       { x: 1, y: 1 },
     ],
     width: 3,
+    rotate: true,
     height: 2,
     value: 6,
   },
@@ -81,6 +86,7 @@ const SHAPES = [
       { x: 2, y: 1 },
     ],
     width: 3,
+    rotate: true,
     height: 2,
     value: 7,
   },

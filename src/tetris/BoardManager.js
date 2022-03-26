@@ -71,6 +71,8 @@ export function useBoard() {
   }
 
   function rotateShape() {
+    if (shape.rotate === false) return;
+
     const tX = Math.floor(shape.width / 2);
     const tY = Math.floor(shape.height / 2);
 
@@ -92,6 +94,7 @@ export function useBoard() {
       shape: newPoints,
       width: shape.width,
       height: shape.height,
+      rotate: shape.rotate,
       value: shape.value,
     };
 

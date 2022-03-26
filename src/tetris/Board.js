@@ -5,8 +5,6 @@ const Board = () => {
   const [display, score, onKeyDown] = useBoard();
   const eBoard = useRef();
 
-  useEffect(focusBoard, []);
-
   useEffect(() => {
     const doSomething = (e) => {
       onKeyDown(e);
@@ -17,10 +15,6 @@ const Board = () => {
       window.removeEventListener("keydown", doSomething);
     };
   }, [onKeyDown]);
-
-  function focusBoard() {
-    eBoard.current.focus();
-  }
 
   return (
     <div ref={eBoard} className={"t-board"} tabIndex={0}>

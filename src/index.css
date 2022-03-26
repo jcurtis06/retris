@@ -1,6 +1,8 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
+  color: white;
   margin: 0px;
+  background-color: rgb(20, 20, 20);
 }
 
 .t-row {
@@ -11,7 +13,16 @@ body {
   display: inline-block;
   margin: 20px;
   padding: 20px;
-  border: 1px solid grey;
+  border: none;
+  outline: none;
+}
+
+.t-board:focus {
+  border: none;
+}
+
+.t-board:active {
+  border: none;
 }
 
 .t-cell {
@@ -20,11 +31,11 @@ body {
   height: 30px;
   box-sizing: border-box;
   color: grey;
-  border: 1px solid white;
+  border: 1px solid rgb(20, 20, 20);
 }
 
 .t-cell-0 {
-  background-color: black;
+  background-color: rgb(30, 30, 30);
 }
 
 .t-cell-1 {
@@ -64,7 +75,12 @@ body {
 }
 
 .t-parent {
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 element.style {
