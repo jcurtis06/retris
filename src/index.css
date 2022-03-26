@@ -28,15 +28,31 @@ body {
 }
 
 .t-cell-1 {
-  background-color: #00d;
+  background-color: yellow;
 }
 
 .t-cell-2 {
-  background-color: green;
+  background-color: teal;
 }
 
 .t-cell-3 {
+  background-color: orange;
+}
+
+.t-cell-4 {
+  background-color: purple;
+}
+
+.t-cell-5 {
+  background-color: blueviolet;
+}
+
+.t-cell-6 {
   background-color: red;
+}
+
+.t-cell-7 {
+  background-color: green;
 }
 
 .t-score-label {

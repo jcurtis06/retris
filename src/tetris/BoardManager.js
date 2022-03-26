@@ -20,7 +20,7 @@ function mergeIntoStage(stage, shape, position) {
       return;
     }
 
-    res = updateStage(res, x, y, 1);
+    res = updateStage(res, x, y, shape.value);
   });
 
   return res;
@@ -92,6 +92,7 @@ export function useBoard() {
       shape: newPoints,
       width: shape.width,
       height: shape.height,
+      value: shape.value,
     };
 
     if (validPosition(position, newShape)) {

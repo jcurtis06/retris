@@ -10,6 +10,7 @@ const SHAPES = [
     width: 2,
     height: 2,
     rotate: false,
+    value: 1,
   },
   {
     // I
@@ -21,6 +22,7 @@ const SHAPES = [
     ],
     width: 1,
     height: 4,
+    value: 2,
   },
   {
     // L
@@ -32,6 +34,7 @@ const SHAPES = [
     ],
     width: 2,
     height: 3,
+    value: 3,
   },
   {
     // T
@@ -43,6 +46,7 @@ const SHAPES = [
     ],
     width: 3,
     height: 2,
+    value: 4,
   },
   {
     // J
@@ -54,6 +58,7 @@ const SHAPES = [
     ],
     width: 2,
     height: 3,
+    value: 5,
   },
   {
     // S
@@ -65,6 +70,7 @@ const SHAPES = [
     ],
     width: 3,
     height: 2,
+    value: 6,
   },
   {
     // Z
@@ -76,6 +82,7 @@ const SHAPES = [
     ],
     width: 3,
     height: 2,
+    value: 7,
   },
 ];
 
