@@ -2,6 +2,8 @@
 
 _Tetris made in React_
 
+**VIEW THE VANILLA JS VERSION HERE: https://github.com/jcurtis06/tetrjs**
+
 ### Features
 - bugs
 - terrible UI
