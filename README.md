@@ -2,6 +2,8 @@
 
 _Tetris made in React_
 
+You can play it online https://jcurtis-retris.netlify.app/
+
 **VIEW THE VANILLA JS VERSION HERE: https://github.com/jcurtis06/tetrjs**
 
 ### Features
